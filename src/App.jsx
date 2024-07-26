@@ -14,7 +14,7 @@ const App = () => {
         const data = await response.json();
         setPokemonData(data.results);
       } catch (error) {
-        console.error("Error fetching Pokémon data:", error);
+        console.error("Error fetching Pokemon data:", error);
       }
     };
 
